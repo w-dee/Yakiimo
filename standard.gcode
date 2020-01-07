@@ -1,3 +1,6 @@
+M80 ; power on
+G4 S3 ; wait for PSU getting good
+
 M140 S160
 G4 S1800
 
@@ -70,5 +73,5 @@ G4 S1800
 M140 S70
 G4 S1800
 
-
-
+M140 S0
+M81 ; power off
